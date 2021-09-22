@@ -1,0 +1,38 @@
+.headerStyle {
+    background-color: 'transparent';
+    position: 'absolute';
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom-width: 0 
+   
+}
+.color{
+    color: rgb(0, 102, 255) !important;
+}
+.navbar.active{
+    background-color: white !important;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.navbar-toggler{
+    border: none !important;
+    outline: none !important;
+}
+.navbar-toggler:focus{
+    border: none !important;
+    outline: none !important;
+}
+.navbar-toggler:hover{
+    transform: rotate(180deg);
+}
+.navbar-toggler-collapsed:focus {
+    border: none;
+    outline: none;
+}
+.text{
+    font-weight: 600;
+}

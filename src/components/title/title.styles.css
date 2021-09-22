@@ -1,0 +1,10 @@
+.underline{
+    width: 40px;
+    height: 4px;
+    background-color: rgb(0, 102, 255);
+    margin: 0 auto;
+    margin-top: 5px
+}
+.title-text{
+    font-weight: bold;
+}

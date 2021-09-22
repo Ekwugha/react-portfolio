@@ -1,0 +1,40 @@
+.contact {
+    border-radius: 50px;
+    width: 200px;
+    background: rgb(0, 102, 255);
+    border: none;
+}
+.list-icon{ 
+    color: #0078ff;
+    margin-right: 7px;
+    font-size: 13px;
+}
+.list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.contact-text{
+    margin: 3px;
+}
+.ico-circle {
+    height: 40px;
+    width: 40px;
+    font-size: 1.7rem;
+    border-radius: 50%;
+    line-height: 1.4;
+    margin: 0 15px 0 0;
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: 0 0 0 3px #0078ff;
+    transition: all 500ms ease;
+    padding: 5px;
+}
+.ico-circle:hover{
+    box-shadow: 0 0 0 3px #dcdcdc;
+    background-color: #0078ff;
+    color: #ffffff!important;
+}
+.icon1:hover{
+    color: #ffffff!important;
+}

@@ -1,0 +1,28 @@
+/******************************** HOME-PAGE ******************************/
+.height{
+    height: 100vh;
+}
+@media screen and (min-width:768px) {
+    .img{
+        margin-top: 0px;
+    }
+}
+
+
+/******************************** TEXT-SLIDER ******************************/
+.intro-subtitle {
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+@media screen and (min-width:768px) {
+    .intro-title{
+        font-size: 4.5rem;
+    }
+    .intro-subtitle{
+        font-size: 2rem ;
+    }
+}
+
+.btn-color:hover{
+    color: #000000 !important;
+}

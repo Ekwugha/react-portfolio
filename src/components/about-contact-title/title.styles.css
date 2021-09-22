@@ -1,0 +1,9 @@
+.about-title{
+    font-size: 30px;
+    color: #000;
+}
+.title-underline{
+    width: 100px;
+    height: 4px;
+    background-color: rgb(0, 102, 255);
+}
