@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faJsSquare, faCss3Alt, faArtstation,  } from '@fortawesome/free-brands-svg-icons'
-import { faDatabase, faCloud, faCloudDownloadAlt, faCloudUploadAlt } from "@fortawesome/free-solid-svg-icons";
+import { faJsSquare, faCss3Alt  } from '@fortawesome/free-brands-svg-icons'
+import { faDatabase, faCloudUploadAlt } from "@fortawesome/free-solid-svg-icons";
 import CardBody from '../card/card.component';
 
 export class SkillsData extends React.Component {
