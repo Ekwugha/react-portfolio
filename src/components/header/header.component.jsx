@@ -6,8 +6,7 @@ import './header.styles.css';
 export default function Header(props) {
     return (
         <div className="img" style={{ 
-            backgroundImage: `linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.9)) ,url('assest/mee.jpg')`,
-            backgroundColor: `linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.9))`,
+            backgroundImage: `linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.7)) ,url('assest/mee.jpg')`,
             backgroundRepeat: 'no-repeat',
             backgroundAttachment: 'fixed',
             backgroundPosition: 'center',
