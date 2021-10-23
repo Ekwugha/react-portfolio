@@ -20,7 +20,7 @@ function About() {
                                         </p>
                                         <p data-aos='faderight'>
                                             <span className="title-span">Profile: </span>
-                                            <span>Front-end Developer</span>
+                                            <span>Web Developer</span>
                                         </p>
                                         <p data-aos='faderight'>
                                             <span className="title-span">Email: </span>
@@ -41,7 +41,7 @@ function About() {
                                         I'm working on becoming a mobile developer but now I help bussiness owners and entrepreneurs to scale their bussiness, income and life radically to allow them win in both offline and the digital world without any struggle.
                                     </p>
                                     <p className="lead">
-                                        I specialize in creating a website for clients ranging from indiviuals and small bussiness all the way up to large enterprise corporations. I'M KEEN TO WORKING FOR COMPANIES AND ALSO PARTNERING WITH INDIVIDUALS WITH HIGHLY DEVELOPMENTAL IDEAS. I am very skilled with developing or building website from the scratch and also making web applications.
+                                        I specialize in creating a website and web apps for clients ranging from indiviuals and small bussiness all the way up to large enterprise corporations. I'M KEEN TO WORKING FOR COMPANIES AND ALSO PARTNERING WITH INDIVIDUALS WITH HIGHLY DEVELOPMENTAL IDEAS. I am very skilled with developing or building website from the scratch and also making web applications.
                                     </p>
                                 </Col>
                             </Row>

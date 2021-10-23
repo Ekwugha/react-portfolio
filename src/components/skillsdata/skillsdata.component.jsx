@@ -31,10 +31,13 @@ export class SkillsData extends React.Component {
                     id: 3,
                     icon: <FontAwesomeIcon icon={faDatabase} className="fa-2x my-4 pb-2"/>,
                     title: 'Backend/DB',
-                    body: "I started off with PHP and MySQL but now i use more of Firebase because it reduces the complexity and makes me focus more on the front-end.",
-                    footer1: "PHP",
-                    footer2: "MySQL",
-                    footer3: "Firebase",
+                    body: "I started off with PHP and MySQL but now I use more of NodeJS, Express and MongoDB because it's a JavaScript server side language.",
+                    footer1: "NodeJS",
+                    footer2: "Express",
+                    footer3: "MongoDB",                    
+                    footer4: "PHP",
+                    footer5: "MySQL",
+                    footer6: "Firebase",
                 },
                 {
                     id: 4,
@@ -53,8 +56,8 @@ export class SkillsData extends React.Component {
     render() {
         return (
             <React.Fragment>
-                {this.state.sections.map (({ id, title, body, icon, footer1, footer2, footer3 }) => (
-                    <CardBody key={id} title={ title } body={ body } icon={icon} footer1={footer1} footer2={footer2} footer3={footer3} />
+                {this.state.sections.map (({ id, title, body, icon, footer1, footer2, footer3, footer4, footer5, footer6  }) => (
+                    <CardBody key={id} title={ title } body={ body } icon={icon} footer1={footer1} footer2={footer2} footer3={footer3} footer4={footer4} footer5={footer5} footer6={footer6} />
                 ))} 
             </React.Fragment>
         )

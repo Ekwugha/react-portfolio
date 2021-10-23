@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Container, Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faTwitter, faInstagram, faFacebookF, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import './navbar.styles.css';
 
@@ -38,7 +39,7 @@ export default function CustomNavbar() {
                         <FontAwesomeIcon icon={faBars}  size="lg"/>
                     </Navbar.Toggle  >
                     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
-                    <Nav>
+                    <Nav className="mx-auto">
                         <Nav.Link as={Link} to="/" onClick={() => setExpanded(false)} className={navbarbrand ? 'color text' : 'text-light text'} > Home </Nav.Link>
                         <Nav.Link as={Link} to="/about" onClick={() => setExpanded(false)} className={navbarbrand ? 'color text' : 'text-light text'} > About </Nav.Link>
                         <Nav.Link as={Link} to="/service" onClick={() => setExpanded(false)} className={navbarbrand ? 'color text' : 'text-light text'} > Service </Nav.Link>
@@ -46,6 +47,14 @@ export default function CustomNavbar() {
                         <Nav.Link as={Link} to="/work" onClick={() => setExpanded(false)} className={navbarbrand ? 'color text' : 'text-light text'} > Work </Nav.Link>
                         <Nav.Link as={Link} to="/contact" onClick={() => setExpanded(false)} className={navbarbrand ? 'color text' : 'text-light text'} > Contact </Nav.Link>
                     </Nav>
+
+                    <Nav>
+                        <Nav.Link href="https://twitter.com/darealElo_" target="_blank" onClick={() => setExpanded(false)} className={navbarbrand ? 'color text' : 'text-light text'} > <FontAwesomeIcon icon={faTwitter} size = 'lg' /> </Nav.Link>
+                        <Nav.Link href="https://www.instagram.com/darealdan_/?hl=en" target="_blank" onClick={() => setExpanded(false)} className={navbarbrand ? 'color text' : 'text-light text'} > <FontAwesomeIcon icon={faInstagram} size = 'lg' /> </Nav.Link>
+                        <Nav.Link href="https://www.facebook.com/profile.php?id=100062158207318" target="_blank" onClick={() => setExpanded(false)} className={navbarbrand ? 'color text' : 'text-light text'} > <FontAwesomeIcon icon={faFacebookF} size = 'lg' /> </Nav.Link>
+                        <Nav.Link href="https://github.com/Ekwugha" target="_blank" onClick={() => setExpanded(false)} className={navbarbrand ? 'color text' : 'text-light text'} > <FontAwesomeIcon icon={faGithub} size = 'lg' /> </Nav.Link>
+                    </Nav>
+
                     </Navbar.Collapse>
                 </Container>
             </Navbar>

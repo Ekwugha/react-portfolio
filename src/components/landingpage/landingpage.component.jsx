@@ -11,7 +11,7 @@ const LandingPage = () => {
     }, []);
     return (
         <header className="img" style={{ 
-            backgroundImage: `linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.7)) ,url('assest/mee.jpg')`,
+            backgroundImage: `linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.9)) ,url('assest/mee.jpg')`,
             backgroundRepeat: 'no-repeat',
             backgroundAttachment: 'fixed',
             backgroundPosition: 'center',
@@ -25,7 +25,7 @@ const LandingPage = () => {
                             <span  className="text-white">
                                 <strong>
                                     <Typewriter options={{
-                                            strings: ['Web Developer', 'React Developer',  'Full-Stack Developer'],
+                                            strings: ['Web Developer', 'JavaScript Developer', 'React Developer', 'Full-Stack Web Developer'],
                                             autoStart: true,
                                             loop: true,
                                         }}/>

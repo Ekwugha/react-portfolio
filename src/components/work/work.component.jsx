@@ -11,7 +11,7 @@ function Work() {
                 <Row>
                     <Col>
                         <Title> Project </Title>
-                        <Paragraph> I seldomly update the work here but you can go to my <a href="https://github.com/Ekwugha">github</a> and check for the source code of any project and also for newly updated project too. </Paragraph>
+                        <Paragraph> I seldomly update the work here but you can go to my <a href="https://github.com/Ekwugha" target="_blank">github</a> and check for the source code of any project and also for newly updated project too. </Paragraph>
                         <Row>
                             <Col sm={12}>
                                 <Tabs data-aos='fade-up' defaultActiveKey="first" className="justify-content-center nav-pills py-3">
@@ -22,7 +22,7 @@ function Work() {
                                                 <Row className="no-gutters py-5">
                                                     <Col sm={6} md={4} >
                                                         <Card>
-                                                            <a href="https://ekwugha.github.io/price-comparison-website/" data-toggle="lightbox" data-gallery="example-gallery">
+                                                            <a href="https://ekwugha.github.io/price-comparison-website/" target="_blank" data-toggle="lightbox" data-gallery="example-gallery">
                                                                 <img src="assest/html1.png" href="https://ekwugha.github.io/price-comparison-website/" alt="Portfolio-Item" className="imgfluid card-img-top" />
                                                             </a>
                                                             <Card.Body className="mt3">
@@ -35,7 +35,7 @@ function Work() {
 
                                                     <Col sm={6} md={4} >
                                                         <Card>
-                                                            <a href="https://ekwugha.github.io/hotel-site/" data-toggle="lightbox" data-gallery="example-gallery">
+                                                            <a href="https://ekwugha.github.io/hotel-site/" target="_blank" data-toggle="lightbox" data-gallery="example-gallery">
                                                                 <img src="assest/html4.png" href="https://ekwugha.github.io/hotel-site/" alt="Portfolio-Item" className="imgfluid card-img-top" />
                                                             </a>
                                                             <Card.Body className="mt3">
@@ -48,7 +48,7 @@ function Work() {
 
                                                     <Col sm={6} md={4} >
                                                         <Card>
-                                                            <a href="https://ekwugha.github.io/resturant-menu/" data-toggle="lightbox" data-gallery="example-gallery">
+                                                            <a href="https://ekwugha.github.io/resturant-menu/" target="_blank" data-toggle="lightbox" data-gallery="example-gallery">
                                                                 <img src="assest/js1.png" href="https://ekwugha.github.io/resturant-menu/" alt="Portfolio-Item" className="imgfluid card-img-top" />
                                                             </a>
                                                             <Card.Body className="mt3">
@@ -61,7 +61,7 @@ function Work() {
 
                                                     <Col sm={6} md={4} >
                                                         <Card>
-                                                            <a href="https://ekwugha.github.io/price-comparison-website/" data-toggle="lightbox" data-gallery="example-gallery">
+                                                            <a href="https://ekwugha.github.io/price-comparison-website/" target="_blank" data-toggle="lightbox" data-gallery="example-gallery">
                                                                 <img src="assest/react1.png" href="https://ekwugha.github.io/price-comparison-website/" alt="Portfolio-Item" className="imgfluid card-img-top" />
                                                             </a>
                                                             <Card.Body className="mt3">
@@ -74,7 +74,7 @@ function Work() {
 
                                                     <Col sm={6} md={4} >
                                                         <Card>
-                                                            <a href="https://eloreactproject.netlify.app/" data-toggle="lightbox" data-gallery="example-gallery">
+                                                            <a href="https://eloreactproject.netlify.app/" target="_blank" data-toggle="lightbox" data-gallery="example-gallery">
                                                                 <img src="assest/react2.png" href="https://eloreactproject.netlify.app/" alt="Portfolio-Item" className="imgfluid card-img-top" />
                                                             </a>
                                                             <Card.Body className="mt3">
@@ -87,7 +87,7 @@ function Work() {
 
                                                     <Col sm={6} md={4} >
                                                         <Card>
-                                                            <a href="https://elo-monster-rolodex.netlify.app" data-toggle="lightbox" data-gallery="example-gallery">
+                                                            <a href="https://elo-monster-rolodex.netlify.app" target="_blank" data-toggle="lightbox" data-gallery="example-gallery">
                                                                 <img src="assest/react3.png" href="https://elo-monster-rolodex.netlify.app" alt="Portfolio-Item" className="imgfluid card-img-top" />
                                                             </a>
                                                             <Card.Body className="mt3">
@@ -108,7 +108,7 @@ function Work() {
                                         <Row>
                                             <Col sm={6}>
                                                 <Card>
-                                                    <a href="https://ekwugha.github.io/price-comparison-website/" data-toggle="lightbox" data-gallery="example-gallery">
+                                                    <a href="https://ekwugha.github.io/price-comparison-website/" target="_blank" data-toggle="lightbox" data-gallery="example-gallery">
                                                         <img src="assest/html1.png" href="https://ekwugha.github.io/price-comparison-website/" alt="Portfolio-Item" className="imgfluid card-img-top" />
                                                     </a>
                                                     <Card.Body className="mt3">
@@ -121,7 +121,7 @@ function Work() {
 
                                             <Col sm={6}>
                                                 <Card>
-                                                    <a href="https://ekwugha.github.io/hotel-site/" data-toggle="lightbox" data-gallery="example-gallery">
+                                                    <a href="https://ekwugha.github.io/hotel-site/" target="_blank" data-toggle="lightbox" data-gallery="example-gallery">
                                                         <img src="assest/html4.png" href="https://ekwugha.github.io/hotel-site/" alt="Portfolio-Item" className="imgfluid card-img-top" />
                                                     </a>
                                                     <Card.Body className="mt3">
@@ -140,7 +140,7 @@ function Work() {
                                         <Row>
                                             <Col sm={6}>
                                                 <Card>
-                                                    <a href="https://ekwugha.github.io/price-comparison-website/" data-toggle="lightbox" data-gallery="example-gallery">
+                                                    <a href="https://ekwugha.github.io/price-comparison-website/" target="_blank" data-toggle="lightbox" data-gallery="example-gallery">
                                                         <img src="assest/html1.png" href="https://ekwugha.github.io/price-comparison-website/" alt="Portfolio-Item" className="card-img-top" />
                                                     </a>
                                                     <Card.Body className="mt3">
@@ -153,7 +153,7 @@ function Work() {
 
                                             <Col sm={6}>
                                                 <Card>
-                                                    <a href="https://ekwugha.github.io/resturant-menu/" data-toggle="lightbox" data-gallery="example-gallery">
+                                                    <a href="https://ekwugha.github.io/resturant-menu/" target="_blank" data-toggle="lightbox" data-gallery="example-gallery">
                                                         <img src="assest/js1.png" href="https://ekwugha.github.io/resturant-menu/" alt="Portfolio-Item" className="card-img-top" />
                                                     </a>
                                                     <Card.Body className="mt3">
@@ -172,7 +172,7 @@ function Work() {
                                         <Row>
                                             <Col sm={6}>
                                                 <Card>
-                                                    <a href="https://ekwugha.github.io/price-comparison-website/" data-toggle="lightbox" data-gallery="example-gallery">
+                                                    <a href="https://ekwugha.github.io/price-comparison-website/" target="_blank" data-toggle="lightbox" data-gallery="example-gallery">
                                                         <img src="assest/react1.png" href="https://ekwugha.github.io/price-comparison-website/" alt="Portfolio-Item" className="imgfluid card-img-top" />
                                                     </a>
                                                     <Card.Body className="mt3">
@@ -185,7 +185,7 @@ function Work() {
 
                                             <Col sm={6}>
                                                 <Card>
-                                                    <a href="https://eloreactproject.netlify.app/" data-toggle="lightbox" data-gallery="example-gallery">
+                                                    <a href="https://eloreactproject.netlify.app/" target="_blank" data-toggle="lightbox" data-gallery="example-gallery">
                                                         <img src="assest/react2.png" href="https://eloreactproject.netlify.app/" alt="Portfolio-Item" className="imgfluid card-img-top" />
                                                     </a>
                                                     <Card.Body className="mt3">
@@ -198,7 +198,7 @@ function Work() {
 
                                             <Col sm={6}>
                                                 <Card>
-                                                    <a href="https://elo-monster-rolodex.netlify.app" data-toggle="lightbox" data-gallery="example-gallery">
+                                                    <a href="https://elo-monster-rolodex.netlify.app" target="_blank" data-toggle="lightbox" data-gallery="example-gallery">
                                                         <img src="assest/react3.png" href="https://elo-monster-rolodex.netlify.app" alt="Portfolio-Item" className="imgfluid card-img-top" />
                                                     </a>
                                                     <Card.Body className="mt3">
