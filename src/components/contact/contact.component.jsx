@@ -77,7 +77,7 @@ function Contact() {
                                 <div className="d-flex">
                                     <ul className="list  pt-3">
                                         <li>
-                                            <a href="https://twitter.com/darealElo_">
+                                            <a href="https://twitter.com/darealElo_" target="_blank" rel="noreferrer">
                                                 <span className="ico-circle">
                                                     <FontAwesomeIcon className="icon1 text-dark" icon={faTwitter} />
                                                 </span>
@@ -86,7 +86,7 @@ function Contact() {
                                     </ul>
                                     <ul class="list px-5 pt-3">
                                         <li>
-                                            <a href="https://www.instagram.com/darealdan_/?hl=en">
+                                            <a href="https://www.instagram.com/darealdan_/?hl=en" target="_blank" rel="noreferrer">
                                                 <span className="ico-circle">
                                                     <FontAwesomeIcon className="icon1 text-dark" icon={faInstagram} />
                                                 </span>
@@ -95,7 +95,7 @@ function Contact() {
                                     </ul>
                                     <ul class="list pt-3">
                                         <li>
-                                            <a href="https://www.facebook.com/profile.php?id=100062158207318">
+                                            <a href="https://www.facebook.com/profile.php?id=100062158207318" target="_blank" rel="noreferrer">
                                                 <span className="ico-circle">
                                                     <FontAwesomeIcon className="icon1 text-dark" icon={faFacebookF} />
                                                 </span>
@@ -104,7 +104,7 @@ function Contact() {
                                     </ul>
                                     <ul class="list px-5 pt-3">
                                         <li>
-                                            <a href="https://github.com/Ekwugha">
+                                            <a href="https://github.com/Ekwugha" target="_blank" rel="noreferrer">
                                                 <span className="ico-circle">
                                                     <FontAwesomeIcon className="icon1 text-dark" icon={faGithub} />
                                                 </span>
@@ -190,7 +190,7 @@ function Contact() {
                                     <div className="d-flex">
                                         <ul className="list  pt-3">
                                             <li>
-                                                <a href="https://twitter.com/darealElo" target="_blank">
+                                                <a href="https://twitter.com/darealElo" target="_blank" rel="noreferrer">
                                                     <span className="ico-circle">
                                                         <FontAwesomeIcon className="icon1 text-dark" icon={faTwitter} />
                                                     </span>
@@ -199,7 +199,7 @@ function Contact() {
                                         </ul>
                                         <ul class="list px-5 pt-3">
                                             <li>
-                                                <a href="https://www.instagram.com/darealdan_/?hl=en" target="_blank">
+                                                <a href="https://www.instagram.com/darealdan_/?hl=en" target="_blank" rel="noreferrer">
                                                     <span className="ico-circle">
                                                         <FontAwesomeIcon className="icon1 text-dark" icon={faInstagram} />
                                                     </span>
@@ -208,7 +208,7 @@ function Contact() {
                                         </ul>
                                         <ul class="list pt-3">
                                             <li>
-                                                <a href="https://www.facebook.com/profile.php?id=100062158207318" target="_blank">
+                                                <a href="https://www.facebook.com/profile.php?id=100062158207318" target="_blank" rel="noreferrer">
                                                     <span className="ico-circle">
                                                         <FontAwesomeIcon className="icon1 text-dark" icon={faFacebookF} />
                                                     </span>
@@ -217,7 +217,7 @@ function Contact() {
                                         </ul>
                                         <ul class="list px-5 pt-3">
                                             <li>
-                                                <a href="https://github.com/Ekwugha" target="_blank">
+                                                <a href="https://github.com/Ekwugha" target="_blank" rel="noreferrer">
                                                     <span className="ico-circle">
                                                         <FontAwesomeIcon className="icon1 text-dark" icon={faGithub} />
                                                     </span>

@@ -49,10 +49,10 @@ export default function CustomNavbar() {
                     </Nav>
 
                     <Nav>
-                        <Nav.Link href="https://twitter.com/darealElo_" target="_blank" onClick={() => setExpanded(false)} className={navbarbrand ? 'color text' : 'text-light text'} > <FontAwesomeIcon icon={faTwitter} size = 'lg' /> </Nav.Link>
-                        <Nav.Link href="https://www.instagram.com/darealdan_/?hl=en" target="_blank" onClick={() => setExpanded(false)} className={navbarbrand ? 'color text' : 'text-light text'} > <FontAwesomeIcon icon={faInstagram} size = 'lg' /> </Nav.Link>
-                        <Nav.Link href="https://www.facebook.com/profile.php?id=100062158207318" target="_blank" onClick={() => setExpanded(false)} className={navbarbrand ? 'color text' : 'text-light text'} > <FontAwesomeIcon icon={faFacebookF} size = 'lg' /> </Nav.Link>
-                        <Nav.Link href="https://github.com/Ekwugha" target="_blank" onClick={() => setExpanded(false)} className={navbarbrand ? 'color text' : 'text-light text'} > <FontAwesomeIcon icon={faGithub} size = 'lg' /> </Nav.Link>
+                        <Nav.Link href="https://twitter.com/darealElo_" target="_blank" rel="noopener" onClick={() => setExpanded(false)} className={navbarbrand ? 'color text' : 'text-light text'} > <FontAwesomeIcon icon={faTwitter} size = 'lg' /> </Nav.Link>
+                        <Nav.Link href="https://www.instagram.com/darealdan_/?hl=en" target="_blank" rel="noopener" onClick={() => setExpanded(false)} className={navbarbrand ? 'color text' : 'text-light text'} > <FontAwesomeIcon icon={faInstagram} size = 'lg' /> </Nav.Link>
+                        <Nav.Link href="https://www.facebook.com/profile.php?id=100062158207318" target="_blank" rel="noopener" onClick={() => setExpanded(false)} className={navbarbrand ? 'color text' : 'text-light text'} > <FontAwesomeIcon icon={faFacebookF} size = 'lg' /> </Nav.Link>
+                        <Nav.Link href="https://github.com/Ekwugha" target="_blank" rel="noopener" onClick={() => setExpanded(false)} className={navbarbrand ? 'color text' : 'text-light text'} > <FontAwesomeIcon icon={faGithub} size = 'lg' /> </Nav.Link>
                     </Nav>
 
                     </Navbar.Collapse>
