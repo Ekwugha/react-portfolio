@@ -21,7 +21,7 @@ function Contact() {
                                 <Title> Send A Message </Title>
                                 <form name="contact" className="py-3" data-netlify="true"  id="my-form" onSubmit={handleSubmit}>
                                     <div className="form-group py-2">
-                                        <input type="name" name="name" id="name" class="form-control" placeholder="Your Name" required />
+                                        <input type="name" name="name" id="name" className="form-control" placeholder="Your Name" required />
                                     </div>
                                     <ValidationError 
                                         prefix="Name" 
@@ -29,7 +29,7 @@ function Contact() {
                                         errors={state.errors}
                                     />
                                     <div className="form-group py-2">
-                                        <input type="email"  name="email" id="email" class="form-control" placeholder="Your Email" required />
+                                        <input type="email"  name="email" id="email" className="form-control" placeholder="Your Email" required />
                                     </div>
                                     <ValidationError 
                                         prefix="Email" 
@@ -37,15 +37,15 @@ function Contact() {
                                         errors={state.errors}
                                     />
                                      <div className="form-group py-2">
-                                        <input type="tel"  name="tel" id="tel" class="form-control" placeholder="Your Phone Number" required />
+                                        <input type="tel"  name="tel" id="tel" className="form-control" placeholder="Your Phone Number" required />
                                     </div>
                                     <ValidationError 
                                         prefix="Tel" 
                                         field="Phone-number"
                                         errors={state.errors}
                                     />
-                                    <div class="form-group py-2">
-                                        <textarea type="message" name="message" id="message" cols="120" rows="5" class="form-control" placeholder="Your Message" required></textarea>
+                                    <div className="form-group py-2">
+                                        <textarea type="message" name="message" id="message" cols="120" rows="5" className="form-control" placeholder="Your Message" required></textarea>
                                     </div>
                                     <ValidationError 
                                         prefix="Message" 
@@ -61,7 +61,7 @@ function Contact() {
                                     Get in touch with me, I am ready to work remotely or for any organization, partner up with developers around the world to work on some exciting project and also as a freelancer to give you and your brand a really nice website.
                                 </p>
                                 <ul className="list">
-                                    <li class="pb-2">
+                                    <li className="pb-2">
                                         <span className="list-icon"> <FontAwesomeIcon icon={faMapMarkerAlt} /> </span>
                                         <span className="contact-text">Lagos, Nigeria</span>
                                     </li>
@@ -84,7 +84,7 @@ function Contact() {
                                             </a>
                                         </li>
                                     </ul>
-                                    <ul class="list px-5 pt-3">
+                                    <ul className="list px-5 pt-3">
                                         <li>
                                             <a href="https://www.instagram.com/darealdan_/?hl=en" target="_blank" rel="noreferrer">
                                                 <span className="ico-circle">
@@ -93,7 +93,7 @@ function Contact() {
                                             </a>
                                         </li>
                                     </ul>
-                                    <ul class="list pt-3">
+                                    <ul className="list pt-3">
                                         <li>
                                             <a href="https://www.facebook.com/profile.php?id=100062158207318" target="_blank" rel="noreferrer">
                                                 <span className="ico-circle">
@@ -102,7 +102,7 @@ function Contact() {
                                             </a>
                                         </li>
                                     </ul>
-                                    <ul class="list px-5 pt-3">
+                                    <ul className="list px-5 pt-3">
                                         <li>
                                             <a href="https://github.com/Ekwugha" target="_blank" rel="noreferrer">
                                                 <span className="ico-circle">
@@ -133,7 +133,7 @@ function Contact() {
                                     <Title> Send A Message </Title>
                                     <form name="contact" className="py-3" data-netlify="true"  id="my-form" onSubmit={handleSubmit}>
                                         <div className="form-group py-2">
-                                            <input type="name" name="name" id="name" class="form-control" placeholder="Your Name" required />
+                                            <input type="name" name="name" id="name" className="form-control" placeholder="Your Name" required />
                                         </div>
                                         <ValidationError 
                                             prefix="Name" 
@@ -141,7 +141,7 @@ function Contact() {
                                             errors={state.errors}
                                         />
                                         <div className="form-group py-2">
-                                            <input type="email"  name="email" id="email" class="form-control" placeholder="Your Email" required />
+                                            <input type="email"  name="email" id="email" className="form-control" placeholder="Your Email" required />
                                         </div>
                                         <ValidationError 
                                             prefix="Email" 
@@ -149,15 +149,15 @@ function Contact() {
                                             errors={state.errors}
                                         />
                                         <div className="form-group py-2">
-                                            <input type="tel"  name="tel" id="tel" class="form-control" placeholder="Your Phone-Number" required />
+                                            <input type="tel"  name="tel" id="tel" className="form-control" placeholder="Your Phone-Number" required />
                                         </div>
                                         <ValidationError 
                                             prefix="Tel" 
                                             field="Phone Number"
                                             errors={state.errors}
                                         />
-                                        <div class="form-group py-2">
-                                            <textarea type="message"  name="message" id="message" cols="120" rows="5" class="form-control" placeholder="Your Message"
+                                        <div className="form-group py-2">
+                                            <textarea type="message"  name="message" id="message" cols="120" rows="5" className="form-control" placeholder="Your Message"
                                                 required></textarea>
                                         </div>
                                         <ValidationError 
@@ -174,7 +174,7 @@ function Contact() {
                                         Get in touch with me, I am ready to work remotely or for any organization, partner up with developers around the world to work on some exciting project and also as a freelancer to give you and your brand a really nice website.
                                     </p>
                                     <ul className="list">
-                                        <li class="pb-2">
+                                        <li className="pb-2">
                                             <span className="list-icon"> <FontAwesomeIcon icon={faMapMarkerAlt} /> </span>
                                             <span className="contact-text">Lagos, Nigeria</span>
                                         </li>
@@ -188,7 +188,7 @@ function Contact() {
                                         </li>
                                     </ul>
                                     <div className="d-flex">
-                                        <ul className="list  pt-3">
+                                        <ul className="list pt-3">
                                             <li>
                                                 <a href="https://twitter.com/darealElo" target="_blank" rel="noreferrer">
                                                     <span className="ico-circle">
@@ -197,7 +197,7 @@ function Contact() {
                                                 </a>
                                             </li>
                                         </ul>
-                                        <ul class="list px-5 pt-3">
+                                        <ul className="list px-5 pt-3">
                                             <li>
                                                 <a href="https://www.instagram.com/darealdan_/?hl=en" target="_blank" rel="noreferrer">
                                                     <span className="ico-circle">
@@ -206,7 +206,7 @@ function Contact() {
                                                 </a>
                                             </li>
                                         </ul>
-                                        <ul class="list pt-3">
+                                        <ul className="list pt-3">
                                             <li>
                                                 <a href="https://www.facebook.com/profile.php?id=100062158207318" target="_blank" rel="noreferrer">
                                                     <span className="ico-circle">
@@ -215,7 +215,7 @@ function Contact() {
                                                 </a>
                                             </li>
                                         </ul>
-                                        <ul class="list px-5 pt-3">
+                                        <ul className="list px-5 pt-3">
                                             <li>
                                                 <a href="https://github.com/Ekwugha" target="_blank" rel="noreferrer">
                                                     <span className="ico-circle">
