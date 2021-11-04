@@ -190,7 +190,7 @@ function Contact() {
                                     <div className="d-flex">
                                         <ul className="list pt-3">
                                             <li>
-                                                <a href="https://twitter.com/darealElo" target="_blank" rel="noreferrer">
+                                                <a href="https://twitter.com/darealElo_" target="_blank" rel="noreferrer">
                                                     <span className="ico-circle">
                                                         <FontAwesomeIcon className="icon1 text-dark" icon={faTwitter} />
                                                     </span>
