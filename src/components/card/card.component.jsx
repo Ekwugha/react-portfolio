@@ -3,7 +3,7 @@ import { Col, Card } from 'react-bootstrap';
 import Icon from '../icon/icon.component';
 import './card.styles.css';
 
-export default function CardBody( {title, body, id, icon, footer1, footer2, footer3, footer4, footer5, footer6} ) {
+const CardBody = ( {title, body, id, icon, footer1, footer2, footer3, footer4, footer5, footer6} ) => {
     return (
         <Col data-aos='zoom-in' md={6} xl={3} className="my-4">
             <Card className="d-card">
@@ -22,3 +22,5 @@ export default function CardBody( {title, body, id, icon, footer1, footer2, foot
         </Col> 
     );
 }
+
+export default CardBody

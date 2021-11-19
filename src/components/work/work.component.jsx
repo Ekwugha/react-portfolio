@@ -61,8 +61,8 @@ function Work() {
 
                                                     <Col sm={6} md={4} >
                                                         <Card>
-                                                            <a href="https://ekwugha.github.io/price-comparison-website/" target="_blank" rel="noreferrer" data-toggle="lightbox" data-gallery="example-gallery">
-                                                                <img src="assest/react1.png" href="https://ekwugha.github.io/price-comparison-website/" alt="Portfolio-Item" className="imgfluid card-img-top" />
+                                                            <a href="https://github.com/Ekwugha/crwn-clothing" target="_blank" rel="noreferrer" data-toggle="lightbox" data-gallery="example-gallery">
+                                                                <img src="assest/react1.png" href="https://github.com/Ekwugha/crwn-clothing" alt="Portfolio-Item" className="imgfluid card-img-top" />
                                                             </a>
                                                             <Card.Body className="mt3">
                                                                 <Card.Text>
@@ -74,12 +74,12 @@ function Work() {
 
                                                     <Col sm={6} md={4} >
                                                         <Card>
-                                                            <a href="https://eloreactproject.netlify.app/" target="_blank" rel="noreferrer" data-toggle="lightbox" data-gallery="example-gallery">
-                                                                <img src="assest/react2.png" href="https://eloreactproject.netlify.app/" alt="Portfolio-Item" className="imgfluid card-img-top" />
+                                                            <a href="https://elorestaurantapp.netlify.app/" target="_blank" rel="noreferrer" data-toggle="lightbox" data-gallery="example-gallery">
+                                                                <img src="assest/restaurant.png" href="https://elorestaurantapp.netlify.app/" alt="Portfolio-Item" className="imgfluid card-img-top" />
                                                             </a>
                                                             <Card.Body className="mt3">
                                                                 <Card.Text>
-                                                                    This a random website using react routers to make a single page application. Was actually my first practice of react so it was added.
+                                                                    I created an e-commerce app with react for a restaurant. The site tells about the restaurant and also allows buying/ordering food online.
                                                                 </Card.Text>
                                                             </Card.Body>
                                                         </Card>
@@ -87,12 +87,25 @@ function Work() {
 
                                                     <Col sm={6} md={4} >
                                                         <Card>
-                                                            <a href="https://elo-monster-rolodex.netlify.app" target="_blank" rel="noreferrer" data-toggle="lightbox" data-gallery="example-gallery">
-                                                                <img src="assest/react3.png" href="https://elo-monster-rolodex.netlify.app" alt="Portfolio-Item" className="imgfluid card-img-top" />
+                                                            <a href="https://elochatapp.netlify.app/" target="_blank" rel="noreferrer" data-toggle="lightbox" data-gallery="example-gallery">
+                                                                <img src="assest/chatapp.png" href="https://https://elochatapp.netlify.app/" alt="Portfolio-Item" className="imgfluid card-img-top" />
                                                             </a>
                                                             <Card.Body className="mt3">
                                                                 <Card.Text>
-                                                                    With Monster Rolodex anyone can search for a monster and it will be filtered out from an Api and displayed on the screen.
+                                                                    This is a chat app that allows users to create a chat group and invite their friends to send messages and images to each other.
+                                                                </Card.Text>
+                                                            </Card.Body>
+                                                        </Card>
+                                                    </Col>
+
+                                                    <Col sm={6} md={4} className="mx-auto">
+                                                        <Card>
+                                                            <a href="https://github.com/Ekwugha/shopping-cart" target="_blank" rel="noreferrer" data-toggle="lightbox" data-gallery="example-gallery">
+                                                                <img src="assest/node.png" href="https://github.com/Ekwugha/shopping-cart" alt="Portfolio-Item" className="imgfluid card-img-top" />
+                                                            </a>
+                                                            <Card.Body className="mt3">
+                                                                <Card.Text>
+                                                                I created a shopping cart where admin can be able to post new products and pages then users can login and purchase products.
                                                                 </Card.Text>
                                                             </Card.Body>
                                                         </Card>
@@ -172,8 +185,8 @@ function Work() {
                                         <Row>
                                             <Col sm={6}>
                                                 <Card>
-                                                    <a href="https://ekwugha.github.io/price-comparison-website/" target="_blank" rel="noreferrer" data-toggle="lightbox" data-gallery="example-gallery">
-                                                        <img src="assest/react1.png" href="https://ekwugha.github.io/price-comparison-website/" alt="Portfolio-Item" className="imgfluid card-img-top" />
+                                                    <a href="https://github.com/Ekwugha/crwn-clothing" target="_blank" rel="noreferrer" data-toggle="lightbox" data-gallery="example-gallery">
+                                                        <img src="assest/react1.png" href="https://github.com/Ekwugha/crwn-clothing" alt="Portfolio-Item" className="imgfluid card-img-top" />
                                                     </a>
                                                     <Card.Body className="mt3">
                                                         <Card.Text>
@@ -185,25 +198,43 @@ function Work() {
 
                                             <Col sm={6}>
                                                 <Card>
-                                                    <a href="https://eloreactproject.netlify.app/" target="_blank" rel="noreferrer" data-toggle="lightbox" data-gallery="example-gallery">
-                                                        <img src="assest/react2.png" href="https://eloreactproject.netlify.app/" alt="Portfolio-Item" className="imgfluid card-img-top" />
+                                                    <a href="https://elorestaurantapp.netlify.app/" target="_blank" rel="noreferrer" data-toggle="lightbox" data-gallery="example-gallery">
+                                                        <img src="assest/restaurant.png" href="https://elorestaurantapp.netlify.app/" alt="Portfolio-Item" className="imgfluid card-img-top" />
                                                     </a>
                                                     <Card.Body className="mt3">
                                                         <Card.Text>
-                                                            This a random website using react routers to make a single page application. Was actually my first practice of react so it was added.
+                                                            I created an e-commerce app with react for a restaurant. The site tells about the restaurant and also allows buying/ordering food online.
                                                         </Card.Text>
                                                     </Card.Body>
                                                 </Card>
                                             </Col>
 
-                                            <Col sm={6}>
+                                            <Col sm={6} >
                                                 <Card>
-                                                    <a href="https://elo-monster-rolodex.netlify.app" target="_blank" rel="noreferrer" data-toggle="lightbox" data-gallery="example-gallery">
-                                                        <img src="assest/react3.png" href="https://elo-monster-rolodex.netlify.app" alt="Portfolio-Item" className="imgfluid card-img-top" />
+                                                    <a href="https://elochatapp.netlify.app/" target="_blank" rel="noreferrer" data-toggle="lightbox" data-gallery="example-gallery">
+                                                        <img src="assest/chatapp.png" href="https://elochatapp.netlify.app/" alt="Portfolio-Item" className="imgfluid card-img-top" />
                                                     </a>
                                                     <Card.Body className="mt3">
                                                         <Card.Text>
-                                                            With Monster Rolodex anyone can search for a monster and it will be filtered out from an Api and displayed on the screen.
+                                                            This is a chat app that allows users to create a chat group and invite their friends to send messages and images to each other.
+                                                        </Card.Text>
+                                                    </Card.Body>
+                                                </Card>
+                                            </Col>
+                                        </Row>
+                                    </Tab>
+
+                                    {/* nodejs */}
+                                    <Tab eventKey="fifth" title="Node">
+                                        <Row>
+                                            <Col sm={6}>
+                                                <Card>
+                                                    <a href="https://github.com/Ekwugha/shopping-cart" target="_blank" rel="noreferrer" data-toggle="lightbox" data-gallery="example-gallery">
+                                                        <img src="assest/node.png" href="https://github.com/Ekwugha/shopping-cart" alt="Portfolio-Item" className="card-img-top" />
+                                                    </a>
+                                                    <Card.Body className="mt3">
+                                                        <Card.Text>
+                                                            I created a shopping cart where admin can be able to post new products and pages then users can login and purchase products.
                                                         </Card.Text>
                                                     </Card.Body>
                                                 </Card>

@@ -13,7 +13,7 @@ import './components/background/background.styles.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'aos/dist/aos.css';
 
-function App() {
+const App = () => {
   return (
     <ScrollToTop>
     <div className="App">
