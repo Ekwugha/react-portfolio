@@ -2,3 +2,6 @@
     color: #000000;
     font-weight: bold;
 }
+.text-justify{
+    text-align: justify;
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faJsSquare, faCss3Alt  } from '@fortawesome/free-brands-svg-icons'
+import { faEthereum, faJsSquare  } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase, faCloudUploadAlt } from "@fortawesome/free-solid-svg-icons";
 import CardBody from '../card/card.component';
 
@@ -11,21 +11,25 @@ export class SkillsData extends React.Component {
         this.state = {
             sections: [
                 {
-                  id: 1,
+                    id: 1,
+                    icon: <FontAwesomeIcon icon={faEthereum} className="fa-2x my-4 pb-2"/>,
+                    title: 'Ethereum',
+                    body: "I develop smart contract in the Ethereum blockchain using solidity. I create dApps like deFi apps, NFTs, ERC20 Tokens e.t.c.",
+                    footer1: "Solidity",
+                    footer2: "EtherJS",
+                    footer3: "Hardhat", 
+                    footer4: "Web3",
+                    footer5: "Ganache",
+                    footer6: "Alchemy",
+                },
+                {
+                  id: 2,
                   icon: <FontAwesomeIcon icon={faJsSquare} className="fa-2x my-4 pb-2"/>,
                   title: 'JavaScript',
                   body: "It's my main language and I know it well. I focus on building single-page apps(SPA) with the attention to code quality and best practices.",
                   footer1: "React",
-                  footer2: "Jquery",                
-                },
-                {
-                    id: 2,
-                    icon: <FontAwesomeIcon icon={faCss3Alt} className="fa-2x my-4 pb-2"/>,
-                    title: 'HTML/CSS',
-                    body: "I write semantic markup with accessibility in mind. I keep my CSS manageable and scalable strictly following best convention practices.",
-                    footer1: "Bootstrap",
-                    footer2: "HTML5",
-                    footer3: "SASS", 
+                  footer2: "Next",
+                  footer3: "Jquery",                
                 },
                 {
                     id: 3,
@@ -47,6 +51,7 @@ export class SkillsData extends React.Component {
                     footer1: "Heroku",
                     footer2: "Netlify",
                     footer3: "Github",
+                    footer4: "Vercel",
                 }
             ]
               

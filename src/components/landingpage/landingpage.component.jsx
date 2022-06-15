@@ -25,7 +25,7 @@ const LandingPage = () => {
                             <span  className="text-white">
                                 <strong>
                                     <Typewriter options={{
-                                            strings: ['Web Developer', 'JavaScript Developer', 'React Developer', 'Full-Stack Web Developer'],
+                                            strings: ['Blockchain Developer', 'Smart contract Developer', 'Solidity Developer', 'React Developer'],
                                             autoStart: true,
                                             loop: true,
                                         }}/>

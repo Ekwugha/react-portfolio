@@ -58,7 +58,7 @@ function Contact() {
                             <Col md={6} data-aos="fade-up">
                                 <Title> Get In Touch </Title>
                                 <p className="lead py-3">
-                                    Get in touch with me, I am ready to work remotely or for any organization, partner up with developers around the world to work on some exciting project and also as a freelancer to give you and your brand a really nice website.
+                                    Get in touch with me, I am ready to work remotely or for any organization, partner up with developers around the world to work on some exciting project and also as a freelancer to give you what you desire.
                                 </p>
                                 <ul className="list">
                                     <li className="pb-2">
@@ -171,7 +171,7 @@ function Contact() {
                                 <Col md={6} data-aos="fade-up">
                                     <Title> Get In Touch </Title>
                                     <p className="lead py-3">
-                                        Get in touch with me, I am ready to work remotely or for any organization, partner up with developers around the world to work on some exciting project and also as a freelancer to give you and your brand a really nice website.
+                                        Get in touch with me, I am ready to work remotely or for any organization, partner up with developers around the world to work on some exciting project and also as a freelancer to give you what you desire.
                                     </p>
                                     <ul className="list">
                                         <li className="pb-2">
